@@ -1,0 +1,738 @@
+[
+  {
+    "room": "CHAMBRE",
+    "id": "0",
+    "items": [
+      {
+        "name": "T-shirts",
+        "type": "all"
+      },
+      {
+        "name": "Bodies",
+        "type": "baby"
+      },
+      {
+        "name": "Pulls",
+        "type": "all",
+        "options": [ "cold", "ski" ]
+      },
+      {
+        "name": "Sous-pulls",
+        "type": "adult_child",
+        "options": [ "cold", "ski" ]
+      },
+      {
+        "name": "Soutiens-gorge",
+        "type": "woman"
+      },
+      {
+        "name": "Soutiens-gorge d'ailletement",
+        "type": "woman",
+        "options": [ "breast" ]
+      },
+      {
+        "name": "Sous-vêtements",
+        "type": "adult_child"
+      },
+      {
+        "name": "Pantalons",
+        "type": "all"
+      },
+      {
+        "name": "Pantalons de ski",
+        "type": "adult_child",
+        "options": [ "ski" ]
+      },
+      {
+        "name": "Chaussettes",
+        "type": "all"
+      },
+      {
+        "name": "Chaussettes de ski",
+        "type": "adult_child",
+        "options": [ "ski" ]
+      },
+      {
+        "name": "Écharpe",
+        "type": "all",
+        "options": [ "cold", "ski" ]
+      },
+      {
+        "name": "Gants",
+        "type": "all",
+        "options": [ "cold", "ski" ]
+      },
+      {
+        "name": "Bonnet",
+        "type": "all",
+        "options": [ "cold", "ski" ]
+      },
+      {
+        "name": "Lunettes de ski / Masque jaune",
+        "type": "adult_child",
+        "options": [ "ski" ]
+      },
+      {
+        "name": "Combinaison",
+        "type": "baby",
+        "options": [ "cold", "ski" ]
+      },
+      {
+        "name": "Chaussures de neige",
+        "type": "all",
+        "options": [ "ski" ]
+      },
+      {
+        "name": "Pyjamas",
+        "type": "all"
+      },
+      {
+        "name": "Gigoteuses",
+        "type": "baby"
+      },
+      {
+        "name": "Organisateurs de bagage",
+        "type": "unique",
+        "info": {
+          "text": "Je vous recommande largement ces emballages organisateur de bagages qui sont ultra-pratiques pour organiser vos affaires dans la valise !",
+          "link": "https://www.amazon.fr/gp/product/B00YP4Z20U/ref=as_li_ss_tl?ie=UTF8&th=1&linkCode=ll1&tag=lesavenduchou-21&linkId=14c06cb4b96450df06795d8ec6a857b2"
+        }
+      },
+      {
+        "name": "Maillots de bain",
+        "type": "all",
+        "options": [ "water" ]
+      },
+      {
+        "name": "Robes",
+        "type": "woman",
+        "options": [ "sun" ]
+      },
+      {
+        "name": "Shorts",
+        "type": "all",
+        "options": [ "sun" ]
+      },
+      {
+        "name": "Paréo",
+        "type": "woman",
+        "options": [ "water" ],
+        "more": true
+      },
+      {
+        "name": "Pochette à maillot",
+        "type": "unique",
+        "options": [ "water" ],
+        "more": true,
+        "info": {
+          "text": "Ce sac à maillot de bain imperméable vous permettra votre maillot de bain encore mouillé et évitera ainsi de mouiller le reste de vos affaires.",
+          "link": "https://www.amazon.fr/Sac-maillot-bain-Club-filles/dp/B06XCT7W4P/ref=as_li_ss_tl?s=aps&ie=UTF8&qid=1502374780&sr=1-1-catcorr&keywords=sac+a+maillot+mouill%C3%A9&linkCode=ll1&tag=lesavenduchou-21&linkId=4c515b2578e9d266a906b37cc00effab"
+        }
+      }
+    ]
+  },
+  {
+    "room": "CUISINE",
+    "id": "1",
+    "items": [
+      {
+        "name": "Biberons / Goupillon",
+        "type": "baby",
+        "info": {
+          "text": "Je vous conseille un goupillon avec un embout éponge.",
+          "link": "https://www.amazon.fr/NUK-Goupillon-avec-Embout-%C3%89ponge/dp/B009X83W78/ref=as_li_ss_tl?s=aps&ie=UTF8&qid=1504129415&sr=1-4-catcorr&keywords=goupillon&linkCode=ll1&tag=lesavenduchou-21&linkId=20de47d4ae8b686ecd0ab62a39ca5f1b"
+        }
+      },
+      {
+        "name": "Lait maternel / de croissance",
+        "type": "baby"
+      },
+      {
+        "name": "Dosettes",
+        "type": "baby"
+      },
+      {
+        "name": "Eau minérale",
+        "type": "unique",
+        "more": true
+      },
+      {
+        "name": "Éponge / Liquide vaisselle",
+        "type": "unique",
+        "options": [ "location" ]
+      },
+      {
+        "name": "Réhausseur nomade",
+        "type": "baby",
+        "info": {
+          "text": "Un réhausseur gonflable de voyage est idéal pour se déplacer sereinement avec bébé.",
+          "link": "https://www.amazon.fr/B%C3%A9aba-R%C3%A9hausseur-Voyage-Taupe-Turquoise/dp/B001D7A8UG/ref=as_li_ss_tl?s=baby&ie=UTF8&qid=1502375224&sr=1-1&keywords=r%C3%A9hausseur+beaba&linkCode=ll1&tag=lesavenduchou-21&linkId=1b40f5b010b8cbc796ec85acca3963ca"
+        }
+      },
+      {
+        "name": "Couverts enfant",
+        "type": "child_baby",
+        "options": [ "location" ]
+      },
+      {
+        "name": "Papier aluminium",
+        "type": "unique",
+        "options": [ "location" ],
+        "more": true
+      },
+      {
+        "name": "Torchon",
+        "type": "unique",
+        "options": [ "location" ],
+        "more": true
+      },
+      {
+        "name": "Alumettes",
+        "type": "unique",
+        "options": [ "location" ],
+        "more": true
+      },
+      {
+        "name": "Sacs poubelle",
+        "type": "unique",
+        "options": [ "location" ],
+        "more": true
+      },
+      {
+        "name": "Chocolat en poudre / Café",
+        "type": "unique",
+        "options": [ "location" ],
+        "more": true
+      },
+      {
+        "name": "Lait",
+        "type": "unique",
+        "options": [ "location" ],
+        "more": true
+      },
+      {
+        "name": "Vinaigrette",
+        "type": "unique",
+        "options": [ "location" ],
+        "more": true
+      },
+      {
+        "name": "Vitamine D",
+        "type": "baby",
+        "more": true,
+        "info": {
+          "text": "Avant 18 mois, il est fortement conseillé de donner de la vitamine D à son nourisson."
+        }
+      }
+    ]
+  },
+  {
+    "room": "SALLE DE BAIN",
+    "id": "2",
+    "items": [
+      {
+        "name": "Déodorant",
+        "type": "adult",
+        "options": [ "sun", "ski" ]
+      },
+      {
+        "name": "Trousse à maquillage",
+        "type": "woman"
+      },
+      {
+        "name": "Shampoing, Gel douche",
+        "type": "unique"
+      },
+      {
+        "name": "Savon bébé",
+        "type": "baby"
+      },
+      {
+        "name": "Brosse à cheveux / Peigne / Accessoires",
+        "type": "all",
+        "info": {
+          "text": "Si vous avez une petite fille, je vous recommande la Tangle Teezer, qui ne tire pas les cheveux.",
+          "link": "https://www.amazon.fr/dp/B00JJ7T2V8/ref=as_li_ss_tl?_encoding=UTF8&psc=1&linkCode=ll1&tag=lesavenduchou-21&linkId=ffc9423d05240bc60a1334b0b6987262"
+        }
+      },
+      {
+        "name": "Sèche-cheveux",
+        "type": "woman"
+      },
+      {
+        "name": "Trousse à manucure",
+        "type": "woman"
+      },
+      {
+        "name": "Brosse à dents / Dentifrice",
+        "type": "adult_child"
+      },
+      {
+        "name": "Serviette de bain",
+        "type": "all"
+      },
+      {
+        "name": "Rasoir",
+        "type": "man"
+      },
+      {
+        "name": "Sac à linge",
+        "type": "unique",
+        "info": {
+          "text": "Un sac à linge souple permet de contenir votre linge sale.",
+          "link": "https://www.amazon.fr/Decdeal-Pliable-Pratique-V%C3%AAtements-Rangement/dp/B073R8528S/ref=as_li_ss_tl?s=baby&ie=UTF8&qid=1502145086&sr=1-1&keywords=sac+%C3%A0+linge&linkCode=ll1&tag=lesavenduchou-21&linkId=e530c27b51c638eaeaddfd41499fe7d1"
+        }
+      },
+      {
+        "name": "Protection hygiénique",
+        "type": "woman",
+        "info": {
+          "text": "Pour savoir quand vos prochaines règles sont prévues, il y a l'application gratuite Clue.",
+          "link": "https://www.helloclue.com/"
+        }
+      },
+      {
+        "name": "Marche-pied / Réducteur",
+        "type": "baby"
+      },
+      {
+        "name": "Couches",
+        "type": "baby"
+      },
+      {
+        "name": "Sacs à couches",
+        "type": "baby",
+        "info": {
+          "text": "Des petits sacs parfumés pour contenir les couches sales.",
+          "link": "https://www.amazon.fr/400-sacs-couches-parfum%C3%A9s-Lot-2-paquets/dp/B01HTYG0R6/ref=as_li_ss_tl?s=baby&ie=UTF8&qid=1502377717&sr=1-6&keywords=sacs+%C3%A0+couches&linkCode=ll1&tag=lesavenduchou-21&linkId=e86fd01db4f37bbdf5e9dceb0413182f"
+        }
+      },
+      {
+        "name": "Lingettes bébé",
+        "type": "baby"
+      },
+      {
+        "name": "Crème pour le change",
+        "type": "baby"
+      },
+      {
+        "name": "Couches de bain",
+        "type": "baby",
+        "options": [ "water" ],
+        "info": {
+          "text": "Vous pouvez opter pour des 'Little Swimmers' de Huggies ou un maillot de bain bébé Eliott et Loup'.",
+          "link": "https://www.amazon.fr/Huggies-Little-Swimmers-Couche-Culotte-Culottes/dp/B004XYLH5Q/ref=as_li_ss_tl?s=baby&ie=UTF8&qid=1502145323&sr=1-1&keywords=little+swimmers&linkCode=ll1&tag=lesavenduchou-21&linkId=b9529cdf07937f215856b9b1a3bb2043"
+        }
+      },
+      {
+        "name": "Baignoire bébé",
+        "type": "baby",
+        "info": {
+          "text": "Il y a uniquement une douche sur le lieu de vos vacances ? Voici une solution de secours : la baignoire gonflable.",
+          "link": "https://www.amazon.fr/Gonflable-Baignoire-Topist-Pataugeoire-Nouveau-n%C3%A9/dp/B01H1TNHOI/ref=as_li_ss_tl?s=baby&ie=UTF8&qid=1502377882&sr=1-6&keywords=baignoire+b%C3%A9b%C3%A9&linkCode=ll1&tag=lesavenduchou-21&linkId=7aa552d80e83f69ec7734af360094dc6"
+        }
+      },
+      {
+        "name": "Masque / Huile pour les cheveux",
+        "type": "woman",
+        "options": [ "sun" ],
+        "more": true,
+        "info": {
+          "text": "L'huile pailletée, rien de tel pour mettre en valeur votre peau bronzée",
+          "link": "https://www.amazon.fr/LOr%C3%A9al-Mythic-Oil-Huile-Paillet%C3%A9e/dp/B014SO8F7I/ref=as_li_ss_tl?ie=UTF8&qid=1504128944&sr=8-1&keywords=huile+paillet%C3%A9e+pour+le+corps&linkCode=ll1&tag=lesavenduchou-21&linkId=1290fdd42a4293950db13ed483dec5d7"
+        }
+      },
+      {
+        "name": "Épilation",
+        "type": "woman",
+        "more": true
+      },
+      {
+        "name": "Pince à épiler",
+        "type": "woman",
+        "more": true
+      },
+      {
+        "name": "Démaquillant",
+        "type": "woman",
+        "more": true
+      },
+      {
+        "name": "Ciseaux à bouts ronds",
+        "type": "baby",
+        "more": true
+      },
+      {
+        "name": "Lessive / Génie",
+        "type": "unique",
+        "more": true
+      },
+      {
+        "name": "Savon pour les mains",
+        "type": "unique",
+        "more": true
+      }
+    ]
+  },
+  {
+    "room": "POUR LA PLAGE",
+    "id": "3",
+    "options": [ "water" ],
+    "items": [
+      {
+        "name": "Serviette de plage",
+        "type": "all",
+        "options": [ "water" ]
+      },
+      {
+        "name": "Brassards",
+        "type": "child_baby",
+        "options": [ "water" ]
+      },
+      {
+        "name": "Jeux de plage",
+        "type": "child_baby",
+        "options": [ "sun", "water" ],
+        "optionsStrict": true
+      },
+      {
+        "name": "Masque / Tuba",
+        "type": "all",
+        "options": [ "water" ]
+      }
+    ]
+  },
+  {
+    "room": "AUTRE",
+    "id": "4",
+    "items": [
+      {
+        "name": "Appareil photo",
+        "type": "unique",
+        "info": {
+          "text": "Si vous cherchez un appareil photo reflex à un bon rapport qualité / prix, je vous conseille le Canon Eos 700D.",
+          "link": "https://www.amazon.fr/Canon-Appareil-num%C3%A9rique-Bo%C3%AEtier-Objectif/dp/B00BYPW00I/ref=as_li_ss_tl?s=electronics&ie=UTF8&qid=1502145525&sr=1-1&keywords=canon&linkCode=ll1&tag=lesavenduchou-21&linkId=24930ed5a9caf11be0cca2b6641e12ae"
+        }
+      },
+      {
+        "name": "Chargeurs (portable, ordinateur, tablette...)",
+        "type": "adult",
+        "info": {
+          "text": "Pour identifier vos câbles en un coup d'oeil, découvrez les 'Cord Identifiers'.",
+          "link": "https://www.amazon.fr/Dotz-Accessoires-c%C3%A2blage-Cord-Identifiers/dp/B0085U9DOG/ref=as_li_ss_tl?ie=UTF8&qid=1502374402&sr=8-2&keywords=cord+identifiers&linkCode=ll1&tag=lesavenduchou-21&linkId=620b5f6bfd011ad96841d85da85c6315"
+        }
+      },
+      {
+        "name": "Lunettes de soleil",
+        "type": "all"
+      },
+      {
+        "name": "Tongs",
+        "type": "adult",
+        "options": [ "sun" ]
+      },
+      {
+        "name": "Poussette",
+        "type": "baby",
+        "info": {
+          "text": "Pensez aussi à prendre un anti-vol si besoin. Découvrez mon test de la poussette Trio-Living Chicco.",
+          "link": "http://www.lesaventuresduchouchou.com/2015/06/test-de-ma-poussette-chicco-trio-living-3-en-1/"
+        }
+      },
+      {
+        "name": "Sac à langer",
+        "type": "baby",
+        "info": {
+          "text": "Vous cherchez un sac à langer vraiment pratique ? Découvrez la marque JuJuBe !",
+          "link": "http://www.lesaventuresduchouchou.com/2016/08/test-du-sac-a-langer-b-f-f-de-ju-ju-be/"
+        }
+      },
+      {
+        "name": "Tétines / Attache-tétine",
+        "type": "baby"
+      },
+      {
+        "name": "Porte-bébé",
+        "type": "baby",
+        "info": {
+          "text": "Si vous n'avez pas encore de porte-bébé, je vous recommande celui d'Ergobaby.",
+          "link": "https://www.amazon.fr/Porte-B%C3%A9b%C3%A9-Ergobaby-Collection-Original-Camel/dp/B001JZU8O8/ref=as_li_ss_tl?ie=UTF8&qid=1502144970&sr=8-1&keywords=ergobaby&linkCode=ll1&tag=lesavenduchou-21&linkId=7786a4b2614f20ef37b6e90edfed43ac"
+        }
+      },
+      {
+        "name": "Baskets",
+        "type": "all"
+      },
+      {
+        "name": "Lit parapluie",
+        "type": "baby",
+        "info": {
+          "text": "À la recherche d'un lit parapluie facile à transporter et qui se déplie en un clin d'oeil ? Découvrez le 'Magic Bed' !",
+          "link": "http://www.lesaventuresduchouchou.com/2013/09/test-du-magicbed-gagnez-un-mini-magicbed/"
+        }
+      },
+      {
+        "name": "Pièce d'identité / Passeport",
+        "type": "all",
+        "info": {
+          "text": "Chaque année des milliers de parents OUBLIENT la pièce d'identité de leur bébé... Ne faites pas comme moi : prévoyez !"
+        }
+      },
+      {
+        "name": "Papier toilette",
+        "type": "unique",
+        "options": [ "location" ]
+      },
+      {
+        "name": "Sopalin",
+        "type": "unique",
+        "options": [ "location" ]
+      },
+      {
+        "name": "Chaise haute / Siège de table",
+        "type": "baby",
+        "options": [ "location" ],
+        "info": {
+          "text": "Ce siège de table 360° est ultra-compact une fois plié et le sac de transport est inclus.",
+          "link": "https://www.amazon.fr/Chicco-Si%C3%A8ge-Table-360%C2%B0-Cocoa/dp/B00M4346H4/ref=as_li_ss_tl?s=aps&ie=UTF8&qid=1502487213&sr=1-2-catcorr&keywords=siege+b%C3%A9b%C3%A9+table&linkCode=ll1&tag=lesavenduchou-21&linkId=eb4075444b469de75348189de10c59d0"
+        }
+      },
+      {
+        "name": "Chaussons",
+        "type": "all",
+        "more": true
+      },
+      {
+        "name": "Parapluie",
+        "type": "unique",
+        "more": true
+      },
+      {
+        "name": "Médicaments (pilule par ex.)",
+        "type": "unique",
+        "more": true
+      },
+      {
+        "name": "Labello",
+        "type": "unique",
+        "more": true,
+        "options": [ "ski" ]
+      },
+      {
+        "name": "Chapeau / Casquette",
+        "type": "all",
+        "options": [ "sun" ]
+      },
+      {
+        "name": "Draps",
+        "type": "unique",
+        "options": [ "location" ]
+      },
+      {
+        "name": "Mouchoirs",
+        "type": "unique",
+        "more": true
+      },
+      {
+        "name": "Solution hydroalcoolique (pour les mains)",
+        "type": "unique",
+        "more": true
+      },
+      {
+        "name": "Mini-trousse de couture",
+        "type": "unique",
+        "more": true
+      },
+      {
+        "name": "Brumisateur",
+        "type": "unique",
+        "options": [ "sun" ],
+        "more": true
+      },
+      {
+        "name": "Sac à dos",
+        "type": "unique",
+        "more": true
+      },
+      {
+        "name": "Jeu de cartes",
+        "type": "unique",
+        "more": true
+      },
+      {
+        "name": "Corde / Pinces à linge",
+        "type": "unique",
+        "more": true
+      },
+      {
+        "name": "Livre / Kindle",
+        "type": "unique",
+        "more": true,
+        "info": {
+          "text": "Une liseuse vous permettra d'emporter avec vous plusieurs livres sans la contrainte du poids.",
+          "link": "https://www.amazon.fr/Amazon-Liseuse-Kindle-Paperwhite-6-Pouces-4Go/dp/B00QJDO0QC/ref=as_li_ss_tl?ie=UTF8&qid=1504129205&sr=8-1&keywords=kindle&linkCode=ll1&tag=lesavenduchou-21&linkId=f1ad7bbd5454c41812aa62ca1ef5e98c"
+        }
+      },
+      {
+        "name": "Écouteurs / Dédoubleur",
+        "type": "unique",
+        "more": true,
+        "info": {
+          "text": "Pour brancher simultanément 2 casques : fini l'écouteur qui tombe !",
+          "link": "https://www.amazon.fr/gp/product/B00LM0ZGJM/ref=as_li_ss_tl?smid=AXZ3JQ1GVFPIF&psc=1&linkCode=ll1&tag=lesavenduchou-21&linkId=dc52eb7800fd39e32e220ea568c899d1"
+        }
+      },
+      {
+        "name": "Multiprise",
+        "type": "unique",
+        "more": true,
+        "info": {
+          "text": "Ce bloc compact multiprise a 4 prises 230 V et 2 prises USB.",
+          "link": "https://www.amazon.fr/gp/product/B0126V0P14/ref=as_li_ss_tl?smid=A3ON3U46C5ZPA3&psc=1&linkCode=ll1&tag=lesavenduchou-21&linkId=72a15fa0697cf041d0782ac1ceba116f"
+        }
+      },
+      {
+        "name": "Crème pour les mains",
+        "type": "unique",
+        "options": [ "cold", "ski" ]
+      }
+    ]
+  },
+  {
+    "room": "ALLAITEMENT",
+    "id": "5",
+    "options": [ "breast" ],
+    "items": [
+      {
+        "name": "Coussinets d'allaitement",
+        "type": "woman"
+      },
+      {
+        "name": "Langes / Petites serviettes",
+        "type": "woman"
+      },
+      {
+        "name": "Tisane d'allaitement",
+        "type": "woman",
+        "info": {
+          "text": "Boire suffisamment est essentiel pour bien allaiter : de l'eau et des tisanes, de préférence à base de plantes qui favorisent la lactation.",
+          "link": "https://www.amazon.fr/Weleda-Tisane-dAllaitement-Fruits-Sachets/dp/B01N79K8TE/ref=as_li_ss_tl?s=baby&ie=UTF8&qid=1502393985&sr=1-1&keywords=tisane+allaitement&linkCode=ll1&tag=lesavenduchou-21&linkId=d963e44d1d0fc3871c8b962bd0648c0e"
+        }
+      }
+    ]
+  },
+  {
+    "room": "TROUSSE À PHARMACIE",
+    "id": "6",
+    "items": [
+      {
+        "name": "Carnet de santé",
+        "type": "child_baby"
+      },
+      {
+        "name": "Carte vitale",
+        "type": "adult"
+      },
+      {
+        "name": "Doliprane",
+        "type": "baby"
+      },
+      {
+        "name": "Bioseptine",
+        "type": "unique"
+      },
+      {
+        "name": "Pansements",
+        "type": "unique"
+      },
+      {
+        "name": "Protection solaire",
+        "type": "unique",
+        "options": [ "sun", "ski" ]
+      },
+      {
+        "name": "Protection solaire enfant",
+        "type": "child_baby",
+        "options": [ "sun", "ski" ]
+      },
+      {
+        "name": "Crème après soleil",
+        "type": "unique",
+        "options": [ "sun", "ski" ]
+      },
+      {
+        "name": "Thermomètre",
+        "type": "child_baby"
+      },
+      {
+        "name": "Doliprane enfant",
+        "type": "child_baby"
+      },
+      {
+        "name": "Apaysil / Spray anti-moustiques",
+        "type": "unique",
+        "options": [ "sun" ]
+      },
+      {
+        "name": "Smecta",
+        "type": "unique",
+        "more": true
+      },
+      {
+        "name": "Sérum physiologique",
+        "type": "baby",
+        "more": true
+      },
+      {
+        "name": "Arnica",
+        "type": "child_baby",
+        "more": true
+      }
+    ]
+  },
+  {
+    "room": "VOITURE",
+    "id": "7",
+    "options": [ "car" ],
+    "items": [
+      {
+        "name": "Petite bouteille d'eau",
+        "type": "unique",
+        "info": {
+          "text": "Je vous conseille cette gourde rétractable bien pratique.",
+          "link": "https://www.amazon.fr/Aqua-Fun-Gourde-r%C3%A9tractable-KA1097/dp/B00D2WDWRG/ref=as_li_ss_tl?s=sports&ie=UTF8&qid=1502487011&sr=1-25&keywords=gourde+pliable&linkCode=ll1&tag=lesavenduchou-21&linkId=e5995993a50b52e5eb6dd13864ea74ae"
+        }
+      },
+      {
+        "name": "Boîte de gâteaux",
+        "type": "unique"
+      },
+      {
+        "name": "Coussin à mémoire de forme",
+        "type": "unique"
+      },
+      {
+        "name": "Support pour tablette",
+        "type": "unique",
+        "info": {
+          "text": "Je vous conseille cette gourde rétractable bien pratique.",
+          "link": "https://www.amazon.fr/Aqua-Fun-Gourde-r%C3%A9tractable-KA1097/dp/B00D2WDWRG/ref=as_li_ss_tl?s=sports&ie=UTF8&qid=1502487011&sr=1-25&keywords=gourde+pliable&linkCode=ll1&tag=lesavenduchou-21&linkId=e5995993a50b52e5eb6dd13864ea74ae"
+        }
+      },
+      {
+        "name": "Chaînes pour pneus",
+        "type": "unique",
+        "options": [ "cold", "car" ],
+        "optionsStrict": true
+      },
+      {
+        "name": "Sacs à vomi",
+        "type": "child_baby",
+        "info": {
+          "text": "Si votre enfant a le mal des transports, pensez aux sacs à vomi.",
+          "link": "https://www.amazon.fr/Orgakiddy-Sac-%C3%A0-Vomi-Opaque/dp/B00IONJQ82/ref=as_li_ss_tl?s=baby&ie=UTF8&qid=1502486893&sr=1-1&keywords=sac+vomi&linkCode=ll1&tag=lesavenduchou-21&linkId=c479635d117a4613327153b16a62030d"
+        }
+      }
+    ]
+  }
+]

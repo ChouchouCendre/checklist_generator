@@ -1,0 +1,126 @@
+{
+  "title": "BIEN VIVRE AVEC LE SOLEIL : LE QUIZ",
+  "intro": "Ce quiz permet de tester vos connaissances sur la manière dont se protéger du soleil pour en profiter sans danger. Il comporte 14 affirmations que vous pouvez juger par VRAI ou par FAUX. Les bonnes réponses s’affichent au fur et à mesure.",
+  "config": {
+    "background_color": "#5aa4eb",
+    "intro_size": "25",
+    "intro_color": "white",
+    "default_image": null,
+    "enable_score": true,
+    "conclusion_size": "20",
+    "show_print": "true",
+    "print_url": "http://www.prioritesantemutualiste.fr/psm/doc/html/infographie-sommeil-cadran-1",
+    "background_only_intro": "true",
+    "theme": "light"
+  },
+  "questions": [{
+    "title": "1. Les hommes et les femmes sont égaux face au soleil.",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Vrai.<br><br>La peau des hommes n’est pas moins fragile que celle des femmes. Les risques liés au soleil sont les mêmes pour tout le monde.",
+    "image": "img/Soleil01.png",
+    "goodChoice": "1"
+  }, {
+    "title": "2. Quand je suis dans l'eau, je suis protégé(e) des rayons du soleil",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Faux.<br><br>L’eau ne protège pas des rayons du soleil et la réverbération vous expose encore plus aux rayons UV. La plupart des crèmes solaires sont résistantes à l'eau mais il faut renouveler les applications à la sortie de l'eau.",
+    "image": "img/Soleil02.png",
+    "goodChoice": "2"
+  }, {
+    "title": "3. Les nuages me protègent des rayons UV",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Faux.<br><br>Attention c’est souvent trompeur, les nuages ne constituent pas une barrière contre les UV. Même par temps nuageux il est indispensable de se protéger des UV qui peuvent être nocifs pour la peau. C’est l’épaisseur et l’intensité de la couche nuageuse qui constituera une barrière plus ou moins efficace pour filtrer les UV.",
+    "image": "img/Soleil03.png",
+    "goodChoice": "2"
+  }, {
+    "title": "4. Un produit de protection solaire empêche de bronzer",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Faux.<br><br>Le produit de protection solaire doit être adapté à son type de peau et permettra de bronzer progressivement mais aussi de protéger sa peau des dangers provenant des UV.",
+    "image": "img/Soleil04.png",
+    "goodChoice": "2"
+  }, {
+    "title": "5. Une application de produit solaire à haute protection suffit pour me protéger",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Faux.<br><br>Il est nécessaire de renouveler les applications toutes les deux heures en tenant compte de ses activités (après chaque baignade, après s’être essuyé,….), mais il faut aussi avoir un comportement raisonnable face au soleil. Pour certains types de peau et certaines personnes vulnérables, il est fortement recommandé d’utiliser un produit solaire « haute protection ». Attention : l'application d'une crème solaire « haute protection », même toutes les deux heures, ne vous permet pas de vous exposer sans contrôle au soleil.",
+    "image": "img/Soleil05.png",
+    "goodChoice": "2"
+  }, {
+    "title": "6. Un produit solaire me protège des allergies au soleil",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Vrai.<br><br>Le produit solaire permet d’éviter certaines réactions cutanées. Il n’en demeure pas moins que les personnes allergiques au soleil doivent éviter de s’exposer et doivent utiliser des produits « très haute protection ». Néanmoins, si vous pensez être allergique au soleil, demandez conseil à votre médecin traitant ou dermatologue.",
+    "image": "img/Soleil06.png",
+    "goodChoice": "1"
+  }, {
+    "title": "7. Les bébés et les nourrissons peuvent être exposés au soleil s'ils sont protégés par un produit solaire",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Faux.<br><br>Il ne faut jamais exposer les bébés et les nourrissons au soleil. Il faut les laisser à l’ombre et il faut les protéger par :<br>- des vêtements foncés à maille serrée,<br>- un chapeau et des lunettes adaptées,<br>- l’application toutes les deux heures d’un produit de protection solaire adapté aux bébés et aux nourrissons,<br>- une hydratation fréquente.",
+    "image": "img/Soleil07.png",
+    "goodChoice": "2"
+  }, {
+    "title": "8. Je suis plus exposé(e) aux rayons du soleil à la plage qu'à la montagne",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Faux.<br><br>En hiver la neige agit comme un miroir et réfléchit très largement les rayons du soleil. Attention, l’exposition à la montagne fait partie des expositions les plus dangereuses, particulièrement en altitude. C'est le phénomène de réverbération.",
+    "image": "img/Soleil08.png",
+    "goodChoice": "2"
+  }, {
+    "title": "9. Quand ma peau est bronzée, j’ai encore besoin de protection.",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Vrai.<br><br>Le bronzage est le signe extérieur des dommages subis par la peau. Sous l’effet des rayons UV, la peau se défend, elle s’épaissit et fabrique la mélanine qui colore le teint. Le bronzage ne protège pas contre le vieillissement cutané et ne limite qu’en partie le risque de cancer. Même bronzé, il est donc nécessaire de continuer à se protéger. Le bronzage permet d'accroître la photoprotection initiale par un facteur de 0 à 3 selon le phototype.",
+    "image": "img/Soleil09.png",
+    "goodChoice": "1"
+  }, {
+    "title": "10. Le soleil accélère le vieillissement de la peau",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Vrai.<br><br>Les rayons du soleil (UVA et UVB) sont en partie arrêtés par la barrière de la peau (l’épiderme). Mais le reste pénètre plus en profondeur et provoque des modifications de la structure de l’épiderme : son vieillissement est accéléré et il perd de son élasticité. Par conséquent la peau se ride, s’épaissit et prend une coloration jaunâtre. Des kystes et des comédons peuvent également apparaître.",
+    "image": "img/Soleil10.png",
+    "goodChoice": "1"
+  }, {
+    "title": "11. Si la date de péremption d'un produit solaire est encore valable, cela signifie que le produit est toujours efficace",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Faux.<br><br>Un produit qui a séjourné trop longtemps au soleil ou qui a été contaminé par du sable n’offre plus la même efficacité. Et pourtant sa date de péremption est toujours la même…. Attention donc aux conditions de conservation. Une crème solaire entamée ne doit plus être utilisée l'année suivante.",
+    "image": "img/Soleil11.png",
+    "goodChoice": "2"
+  }, {
+    "title": "12. Certaines lunettes empêchent les rayons solaires d'atteindre les yeux",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Vrai.<br><br>Seules les lunettes solaires avec marquage CE niveau 3 ou 4 permettent de se protéger des rayons du soleil. Mais pour qu’elles soient efficaces, leur protection filtrante doit être adaptée au niveau d’ensoleillement (voir l’indice de filtration mentionné sur les verres à l’achat).",
+    "image": "img/Soleil12.png",
+    "goodChoice": "1"
+  }, {
+    "title": "13. Sous un parasol, je suis protégé(e) des UV",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Faux.<br><br>Certains sols (sable, neige, carrelage extérieur,…) ont un pouvoir réfléchissant important. Il est donc nécessaire de s’équiper de lunettes, de vêtements adéquats et d’appliquer un produit de protection solaire adapté à son type de peau. Par ailleurs, les parasols ont des indices de protection solaire variant de 15 à 80 en fonction de leur couleur et de la maille. Il est préférable d'utiliser un parasol de couleur foncée à maille serrée qui protège mieux.",
+    "image": "img/Soleil13.png",
+    "goodChoice": "2"
+  }, {
+    "title": "14. Pour se protéger du soleil, il suffit d'utiliser une crème solaire",
+    "choice1": "VRAI",
+    "choice2": "FAUX",
+    "answer": "<strong>Réponse :</strong> Faux.<br><br>Une crème solaire ne suffit pas. Il faut déjà en utiliser une en quantité suffisante, qui soit adaptée à son style de peau et à ses activités. Il faut aussi en renouveler fréquemment l’application. La quantité de crème solaire recommandée est de 2 mg/cm² de peau, ce qui correspondrait à utiliser un tube de crème pour trois applications.<br>Mais il faut aussi :<br>- éviter les heures de fort ensoleillement : entre 12h et 16h,<br>- se protéger avec des vêtements de couleur sombre,<br>- porter un chapeau avec de larges bords (supérieurs à 7,5 cm),<br>- utiliser des lunettes avec des verres de marquage CE niveau 3 ou 4,<br>- utiliser un parasol (plage, montagne, terrasse, etc.),<br>- ne pas s’exposer trop longtemps.",
+    "image": "img/Soleil14.png",
+    "goodChoice": "2"
+  }],
+  "conclusion": {
+    "title": "Vous avez {X} bonnes réponses sur {NB}",
+    "score": [
+      { "range": "0", "msg": "N’hésitez pas à recommencer le quiz !" },
+      { "range": "5", "msg": "Bravo !" },
+      { "range": "13", "msg": "Félicitations !" }
+    ],
+    "text1": "",
+    "text2": "",
+    "text3": "Pour plus d’informations, parlez-en avec votre médecin traitant, adressez-vous à nos professionnels au 3935 ou consultez nos dossiers :<ul><li><a href='http://www.prioritesantemutualiste.fr/psm/maladies-examens/46806/le-soleil-s-en-proteger-pour-eviter-les-cancers-de-la-peau' target='_blank'>Le soleil : s'en protéger pour éviter les cancers de la peau</a></li><li><a href='http://www.prioritesantemutualiste.fr/psm/sante-et-environnement/445527/quels-sont-les-effets-des-ultraviolets-sur-la-sante' target='_blank'>Quels sont les effets des ultraviolets sur la santé ?</a></li><li><a href='http://www.prioritesantemutualiste.fr/psm/maladies-examens/46742/melanome-de-la-peau-essentiel' target='_blank'>Le mélanome de la peau</a></li></ul>" 
+  }
+}
