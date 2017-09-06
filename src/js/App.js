@@ -120,7 +120,7 @@ class App extends React.Component {
             </div>
           </div>
           <div className="mentions" dangerouslySetInnerHTML={ this.createMarkup() }></div>
-          <div className="freepik">Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik" target="_blank" rel="nofollow">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon" target="_blank" rel="nofollow">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="nofollow">CC 3.0 BY</a><br /><a href="https://github.com/ChouchouCendre/checklist_generator" target="_blank">GITHUB</a></div>
+          <div className="freepik">Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik" target="_blank" rel="nofollow">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon" target="_blank" rel="nofollow">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="nofollow">CC 3.0 BY</a><br /><a href="https://github.com/ChouchouCendre/checklist_generator" target="_blank">GITHUB</a> | <a href="http://www.lesaventuresduchouchou.com/contactez-moi/" target="_blank">{ Labels[this.lang]['reportBug'] }</a></div>
       </div>
     );
   }

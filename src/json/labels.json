@@ -33,7 +33,8 @@
     "unique": "Unique",
     "clickMore": "Click for more details.",
     "newRoom": "NEW CATEGORY",
-    "newElement": "New element"
+    "newElement": "New element",
+    "reportBug": "Report a bug"
   },
   "fr": {
     "subtitle": "Mnemosyne (Générateur de Checklist)",
@@ -69,6 +70,7 @@
     "unique": "Unique",
     "clickMore": "Cliquez pour en savoir plus.",
     "newRoom": "NOUVELLE CATÉGORIE",
-    "newElement": "Nouvel élément"
+    "newElement": "Nouvel élément",
+    "reportBug": "Signaler un bug"
   }
 }
