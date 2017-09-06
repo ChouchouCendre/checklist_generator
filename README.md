@@ -18,10 +18,8 @@ Full article here (french): [http://www.lesaventuresduchouchou.com/2017/09/gener
 ![Checklist travel generator](http://www.lesaventuresduchouchou.com/wp-content/uploads/2017/09/screen-1.jpg)
 
 View the project:
-```
 [http://www.lesaventuresduchouchou.com/content/checklist/?lang=en](http://www.lesaventuresduchouchou.com/content/checklist/?lang=en)
-```
 
 
-Report a bug :
+Report a bug:
 [http://www.lesaventuresduchouchou.com/contactez-moi/](Contact me)
