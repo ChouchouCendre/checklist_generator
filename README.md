@@ -22,4 +22,4 @@ View the project:
 
 
 Report a bug:
-[http://www.lesaventuresduchouchou.com/contactez-moi/](Contact me)
+[http://www.lesaventuresduchouchou.com/contactez-moi/](http://www.lesaventuresduchouchou.com/contactez-moi/)
