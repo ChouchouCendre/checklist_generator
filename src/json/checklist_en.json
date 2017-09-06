@@ -104,6 +104,16 @@
         "options": [ "water" ]
       },
       {
+        "name": "Dresses",
+        "type": "woman",
+        "options": [ "sun" ]
+      },
+      {
+        "name": "Shorts",
+        "type": "all",
+        "options": [ "sun" ]
+      },
+      {
         "name": "Sarong",
         "type": "woman",
         "options": [ "water" ],
@@ -126,7 +136,7 @@
     "id": "1",
     "items": [
       {
-        "name": "Baby bottles",
+        "name": "Baby bottles / Bottle brush",
         "type": "baby"
       },
       {
@@ -151,10 +161,6 @@
         "name": "Sponge",
         "type": "unique",
         "options": [ "location" ]
-      },
-      {
-        "name": "Goupillon",
-        "type": "baby"
       },
       {
         "name": "Booster seat",
@@ -366,6 +372,34 @@
     ]
   },
   {
+    "room": "FOR THE BEACH",
+    "id": "3",
+    "options": [ "water" ],
+    "items": [
+      {
+        "name": "Beach towel",
+        "type": "all",
+        "options": [ "water" ]
+      },
+      {
+        "name": "Baby armbands",
+        "type": "child_baby",
+        "options": [ "water" ]
+      },
+      {
+        "name": "Beach set",
+        "type": "child_baby",
+        "options": [ "sun", "water" ],
+        "optionsStrict": true
+      },
+      {
+        "name": "Mask / Tuba",
+        "type": "all",
+        "options": [ "water" ]
+      }
+    ]
+  },
+  {
     "room": "OTHER",
     "id": "3",
     "items": [
@@ -388,6 +422,11 @@
       {
         "name": "Sunglasses",
         "type": "all"
+      },
+      {
+        "name": "Flip flops",
+        "type": "adult",
+        "options": [ "sun" ]
       },
       {
         "name": "Stroller",
@@ -422,23 +461,12 @@
         "type": "all"
       },
       {
-        "name": "Flip flops",
-        "type": "adult",
-        "options": [ "sun" ]
-      },
-      {
         "name": "Umbrella baby bed",
         "type": "baby",
         "info": {
           "text": "À la recherche d'un lit parapluie facile à transporter et qui se déplie en un clin d'oeil ? Découvrez le 'Magic Bed' !",
           "link": "http://www.lesaventuresduchouchou.com/2013/09/test-du-magicbed-gagnez-un-mini-magicbed/"
         }
-      },
-      {
-        "name": "Beach set",
-        "type": "child_baby",
-        "options": [ "sun", "water" ],
-        "optionsStrict": true
       },
       {
         "name": "Identity card / Passport",
@@ -453,16 +481,6 @@
         "name": "Kitchen towel",
         "type": "unique",
         "options": [ "location" ]
-      },
-      {
-        "name": "Beach towel",
-        "type": "all",
-        "options": [ "water" ]
-      },
-      {
-        "name": "Baby armbands",
-        "type": "child_baby",
-        "options": [ "water" ]
       },
       {
         "name": "Baby high chair / Table seat",
@@ -493,11 +511,6 @@
         "type": "unique",
         "more": true,
         "options": [ "ski" ]
-      },
-      {
-        "name": "Mask / Tuba",
-        "type": "all",
-        "options": [ "water" ]
       },
       {
         "name": "Hat / Cap",
@@ -577,7 +590,7 @@
   },
   {
     "room": "ALLAITEMENT",
-    "id": "4",
+    "id": "5",
     "options": [ "breast" ],
     "items": [
       {
@@ -600,7 +613,7 @@
   },
   {
     "room": "AID KIT",
-    "id": "5",
+    "id": "6",
     "items": [
       {
         "name": "Health book",
@@ -655,7 +668,7 @@
   },
   {
     "room": "CAR",
-    "id": "6",
+    "id": "7",
     "options": [ "car" ],
     "items": [
       {
@@ -675,7 +688,7 @@
         }
       },
       {
-        "name": "Snacking",
+        "name": "Snacking / Small cakes",
         "type": "unique"
       },
       {

@@ -73,6 +73,11 @@ hr {
   text-align: center;
 }
 
+.subtitle {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 .contList {
   max-height: 0;
   overflow: hidden;
@@ -98,6 +103,10 @@ hr {
     border: 1px solid #eee;
     margin-right: 10px;
     border-radius: 20px;
+    @include breakpoint(mobileonly) {
+      padding: 0.5rem 0.2rem 0.5rem 0.1rem;
+      margin-right: 0px;
+    }
   }
   span {
     margin: 0 10px;
@@ -121,6 +130,9 @@ hr {
     @include noSelect();
     display: flex;
     padding: 5px 0;
+    @include breakpoint(mobileonly) {
+      display: block;
+    }
   }
   span {
     margin-left: 25px;
@@ -331,7 +343,8 @@ hr {
 }
 
 .line .info {
-  margin-top: -20px;
+  // margin-top: -20px;
+  align-self: end;
   @include breakpoint(mobileonly) {
     display: none;
   }
@@ -474,9 +487,9 @@ hr {
     color: #999;
     background-color: #fff;
     border: 1px solid #eee;
-    @include breakpoint(mobileonly) {
-      display: none;
-    }
+  }
+  @include breakpoint(mobileonly) {
+    text-align: center;
   }
 }
 
@@ -484,6 +497,7 @@ hr {
   position: absolute;
   top: 10px;
   right: 10px;
+  cursor: pointer;
   svg {
     width: 25px;
     height: 25px;

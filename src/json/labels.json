@@ -1,5 +1,6 @@
 {
   "en": {
+    "subtitle": "Mnemosyne (Checklist Generator)",
     "title": "Your family",
     "options": "Your options",
     "genders": ["man", "woman", "child (3-10 years-old)", "baby (less than 3 years-old)"],
@@ -30,9 +31,12 @@
     "onlyBaby": "Only baby",
     "allButBaby": "All except baby",
     "unique": "Unique",
-    "clickMore": "Click for more details."
+    "clickMore": "Click for more details.",
+    "newRoom": "NEW CATEGORY",
+    "newElement": "New element"
   },
   "fr": {
+    "subtitle": "Mnemosyne (Générateur de Checklist)",
     "title": "Votre famille",
     "options": "Vos options",
     "genders": ["homme", "femme", "enfant (3-10 ans)", "bébé (moins de 3 ans)"],
@@ -63,6 +67,8 @@
     "onlyBaby": "Seulement bébé",
     "allButBaby": "Tous sauf bébé",
     "unique": "Unique",
-    "clickMore": "Cliquez pour en savoir plus."
+    "clickMore": "Cliquez pour en savoir plus.",
+    "newRoom": "NOUVELLE CATÉGORIE",
+    "newElement": "Nouvel élément"
   }
 }

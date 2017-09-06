@@ -24,6 +24,7 @@ class App extends React.Component {
     this.onUpdate = this.onUpdate.bind(this);
     this.onUpdateOptions = this.onUpdateOptions.bind(this);
     this.onUpdateJson = this.onUpdateJson.bind(this);
+    this.defaultJson = this.lang === 'fr' ? Json : JsonEn;
   }
 
   componentDidMount() {
@@ -75,6 +76,7 @@ class App extends React.Component {
     contList.style.opacity = '0';
     contFamily.style.maxHeight = '500px';
     localStorage.clear();
+    this.onUpdateJson(this.defaultJson);
   }
 
   getLanguage() {
@@ -87,11 +89,19 @@ class App extends React.Component {
     return { __html: Labels[this.lang]['mentions'] };
   }
 
+  clickFlag() {
+    if (window.location.href.indexOf('localhost') !== -1) {
+      window.location.href = 'http://localhost:3000/?lang=en';
+    } else {
+      window.location.href = 'http://www.lesaventuresduchouchou.com/content/checklist/?lang=en';
+    }
+  }
+
   render() {
     return (
       <div>
-          <Header />
-          <div className="lang printHide"><a href='http://www.lesaventuresduchouchou.com/content/checklist/?lang=en'><IconUK /></a></div>
+          <Header subtitle={ Labels[this.lang]['subtitle'] } />
+          <div className="lang printHide" onClick={ this.clickFlag } ><IconUK /></div>
           <div className="contFamily">
             <h2 className="printHide">{ Labels[this.lang]['title'] }</h2>
             <Composition onUpdate={this.onUpdate} onUpdateOptions={this.onUpdateOptions} lang={this.lang} />
@@ -102,7 +112,7 @@ class App extends React.Component {
           <div className="contList">
             <h2>{ Labels[this.lang]['checklist'] }</h2>
             <div className="listButtons">
-              <button type="submit" onClick={this.clickBack}>← { Labels[this.lang]['regenerate'] }</button>
+              <button type="submit" onClick={this.clickBack.bind(this)}>← { Labels[this.lang]['regenerate'] }</button>
             </div>
             <Checklist family={this.state.familyComposition} options={this.state.familyOptions} json={this.state.json} onUpdate={this.onUpdateJson} lang={this.lang} />
             <div className="buttons printHide">

@@ -10,9 +10,14 @@ import Labels from '../../json/labels.json';
 
 const shortid = require('shortid');
 
-const newElement = 'New element';
+let newElement = 'New element';
 
 export default class Checklist extends React.Component {
+
+  constructor(props) {
+    super(props);
+    newElement = Labels[this.props.lang].newElement;
+  }
 
   componentDidUpdate() {
     if (this.currentSelect) {
@@ -98,6 +103,10 @@ export default class Checklist extends React.Component {
 
   handleBlurRoom(e) {
     this.clickEditRoom(e);
+  }
+
+  onChangeInput() {
+    // Weird issue with defaultValue!
   }
 
   handleFocus(e) {
@@ -205,11 +214,11 @@ export default class Checklist extends React.Component {
   addRoom () {
     const newJson = this.props.json;
     newJson.push({
-      room: 'NEW ROOM',
+      room: Labels[this.props.lang].newRoom,
       id: newJson.length,
       items: [
         {
-          name: 'New element',
+          name: Labels[this.props.lang].newElement,
           type: 'all',
         },
       ],
@@ -347,7 +356,7 @@ export default class Checklist extends React.Component {
       <div>
       {newDatas.map((data, index) => (
           <div key={ index } data-id={ data.id }>
-            <div className="list-room"><input type="text" defaultValue={ data.room } onBlur={ this.handleBlurRoom.bind(this) } /></div>
+            <div className="list-room"><input type="text" value={ data.room } onChange={ this.onChangeInput } onBlur={ this.handleBlurRoom.bind(this) } /></div>
             {data.items.map((item) => (
               <div className={'line line--' + item.type} key={shortid.generate()} data-sid={ item.id } onMouseOver={ this.lineOver } onMouseOut={ this.lineOut }>
               { this.renderLabel(item) }
