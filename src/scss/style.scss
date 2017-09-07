@@ -76,6 +76,8 @@ hr {
 .subtitle {
   font-size: 12px;
   text-transform: uppercase;
+  display: inline-block;
+  line-height: 15px;
 }
 
 .contList {
@@ -515,6 +517,9 @@ hr {
   font-size: 14px;
   a {
     color: #ff8105;
+    line-height: 15px;
+    display: inline-block;
+    text-decoration: none;
   }
 }
 
@@ -540,4 +545,19 @@ hr {
 .buttonArticle {
   background-color: #333 !important;
   color: #fff !important;
+}
+
+.others {
+  padding: 15px 0;
+}
+
+.others-screens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  div {
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+  }
 }

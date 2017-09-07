@@ -74,7 +74,7 @@ class App extends React.Component {
     const contFamily = document.querySelector('.contFamily');
     contList.style.maxHeight = '0';
     contList.style.opacity = '0';
-    contFamily.style.maxHeight = '500px';
+    contFamily.style.maxHeight = '1000px';
     localStorage.clear();
     this.onUpdateJson(this.defaultJson);
   }
