@@ -26,6 +26,7 @@
     "react": "^15.1.0",
     "react-addons-test-utils": "^15.1.0",
     "react-dom": "^15.1.0",
+    "react-svg-loader": "^1.1.1",
     "sass-loader": "^4.0.0",
     "shortid": "^2.2.8",
     "style-loader": "^0.13.1",
@@ -44,7 +45,6 @@
     "eslint-plugin-import": "^2.6.1",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.1.0",
-    "react-transform-hmr": "^1.0.4",
-    "svg-react-loader": "^0.4.4"
+    "react-transform-hmr": "^1.0.4"
   }
 }
