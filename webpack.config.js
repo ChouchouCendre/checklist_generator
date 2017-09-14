@@ -46,7 +46,7 @@ module.exports = {
         ]
     },
     output: {
-        path: '/Users/sun/Documents/Workspace/checklist_generator/dist',
+        path: __dirname + '/dist',
         filename: 'js/bundle.min.js'
     },
     plugins: [
