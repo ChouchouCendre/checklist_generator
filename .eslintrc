@@ -1,5 +1,5 @@
 {
-  parser: "babel-eslint",
+  "parser": "babel-eslint",
   "plugins": [
     "react"
   ],
@@ -28,6 +28,8 @@
     "arrow-parens": 0,
     "no-lonely-if": 0,
     "dot-notation": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0
   },
   "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb-base"]
 }

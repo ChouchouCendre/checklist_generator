@@ -1,12 +1,12 @@
 import React from 'react';
-import IconSun from '../../svg/sun.svg';
-import IconWater from '../../svg/water.svg';
-import IconCold from '../../svg/snowflake.svg';
-import IconSki from '../../svg/ski.svg';
-import IconLocation from '../../svg/home.svg';
-import IconBreast from '../../svg/breast.svg';
-import IconCar from '../../svg/car.svg';
-import Labels from '../../json/labels.json';
+import IconSun from '@svg/sun.svg';
+import IconWater from '@svg/water.svg';
+import IconCold from '@svg/snowflake.svg';
+import IconSki from '@svg/ski.svg';
+import IconLocation from '@svg/home.svg';
+import IconBreast from '@svg/breast.svg';
+import IconCar from '@svg/car.svg';
+import Labels from '@json/labels.json';
 
 const family = [
   {

@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Json from '@json/checklist_fr.json';
+import JsonEn from '@json/checklist_en.json';
+import IconUK from '@svg/uk.svg';
+import Labels from '@json/labels.json';
 import Composition from './containers/composition';
 import Checklist from './containers/checklist';
 import Header from './containers/header';
-import Json from '../json/checklist_fr.json';
-import JsonEn from '../json/checklist_en.json';
-import IconUK from '../svg/uk.svg';
-import Labels from '../json/labels.json';
 
-require('../scss/style.scss');
-require('../scss/info.scss');
+require('@scss/style.scss');
+require('@scss/info.scss');
 
 class App extends React.Component {
 
