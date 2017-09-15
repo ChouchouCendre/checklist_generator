@@ -1,12 +1,12 @@
 import React from 'react'
 
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="logo">
       <a href="http://www.lesaventuresduchouchou.com/" target="_blank"><img src='assets/logo.png' /></a>
       <br />
-      <span className="subtitle">{ this.props.subtitle }</span>
+      <span className="subtitle">{ props.subtitle }</span>
     </div>
   )
 }
