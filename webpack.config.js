@@ -1,6 +1,10 @@
 var path = require('path');
 var webpack = require('webpack');
 
+console.log('r',
+path.join(__dirname, 'src/json/')
+)
+
 module.exports = {
     devServer: {
         inline: true,
@@ -9,6 +13,16 @@ module.exports = {
     },
     devtool: 'cheap-module-eval-source-map',
     entry: './src/js/index.js',
+    resolve: {
+        extensions: ['.js', '.svg', '.json'],
+        modules: [ 'node_modules', './src' ],
+        alias: {
+          "@containers": path.resolve(__dirname, 'src/js/containers/'),
+          "@json": path.resolve(__dirname, 'src/json/'),
+          "@svg": path.resolve(__dirname, 'src/svg/'),
+          "@scss": path.resolve(__dirname, 'src/scss/')
+        }
+    },
     module: {
         rules: [
             {

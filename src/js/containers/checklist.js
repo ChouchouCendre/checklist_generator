@@ -1,12 +1,12 @@
 import React from 'react'
-import IconMore from '../../svg/more.svg';
-import IconLess from '../../svg/less.svg';
-import IconInfo from '../../svg/info.svg';
-import IconEdit from '../../svg/edit.svg';
-import IconValid from '../../svg/valid.svg';
-import IconDelete from '../../svg/delete.svg';
-import IconLine from '../../svg/line.svg';
-import Labels from '../../json/labels.json';
+import IconMore from '@svg/more.svg';
+import IconLess from '@svg/less.svg';
+import IconInfo from '@svg/info.svg';
+import IconEdit from '@svg/edit.svg';
+import IconValid from '@svg/valid.svg';
+import IconDelete from '@svg/delete.svg';
+import IconLine from '@svg/line.svg';
+import Labels from '@json/labels.json';
 
 const shortid = require('shortid');
 

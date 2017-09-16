@@ -1,12 +1,12 @@
 import React from 'react';
-import IconSun from '../../svg/sun.svg';
-import IconWater from '../../svg/water.svg';
-import IconCold from '../../svg/snowflake.svg';
-import IconSki from '../../svg/ski.svg';
-import IconLocation from '../../svg/home.svg';
-import IconBreast from '../../svg/breast.svg';
-import IconCar from '../../svg/car.svg';
-import Labels from '../../json/labels.json';
+import IconSun from '@svg/sun.svg';
+import IconWater from '@svg/water.svg';
+import IconCold from '@svg/snowflake.svg';
+import IconSki from '@svg/ski.svg';
+import IconLocation from '@svg/home.svg';
+import IconBreast from '@svg/breast.svg';
+import IconCar from '@svg/car.svg';
+import Labels from '@json/labels.json';
 
 const family = [
   {
@@ -90,6 +90,7 @@ export default class Composition extends React.Component {
   }
 
   renderOptions () {
+    // l'id semble inutile...
     const optionsMap = [
       { id: 0, type: 'sun', name: Labels[this.props.lang].sun, icon: IconSun },
       { id: 1, type: 'water', name: Labels[this.props.lang].water, icon: IconWater },
@@ -99,6 +100,7 @@ export default class Composition extends React.Component {
       { id: 5, type: 'breast', name: Labels[this.props.lang].breast, icon: IconBreast },
       { id: 6, type: 'car', name: Labels[this.props.lang].car, icon: IconCar },
     ]
+    // ...car la méthode "map" prend en second paramètre l'index de la boucle
     const elements = optionsMap.map((option) => {
       const Icon = option.icon;
       return (
